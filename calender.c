@@ -14,6 +14,7 @@ int daynumber(int day,int month,int year){
     year_rem=year%100;
     return(((year_rem)+(year_rem/4)+day+a[month-1]+cen_val)%7);
 }
+
 void printcal(int yr){
     int day[7],dayn,i=0,j,flag=0;
     int month[12];
